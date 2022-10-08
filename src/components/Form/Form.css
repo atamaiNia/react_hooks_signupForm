@@ -1,0 +1,55 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 60%);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Form__label {
+  margin-bottom: 10px;
+}
+
+.Name {
+  margin-right: 20px;
+}
+
+.Radio-btn__title {
+  font-weight: 700;
+}
+
+.Form__btn {
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(35 129 244 / 65%);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px rgb(0 0 0 / 15%);
+}
+
+.Disabled {
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(218, 219, 220, 0.65);
+  color: rgb(246, 243, 243);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px rgb(0 0 0 / 15%);
+}
