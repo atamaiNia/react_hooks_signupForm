@@ -10,7 +10,12 @@ class App extends Component {
   render() {
     const { formSubmitHandler } = this;
 
-    return <Form onSubmitForm={formSubmitHandler} />;
+    return (
+      <div className="container">
+        <h1>React - form</h1>
+        <Form onSubmitForm={formSubmitHandler} />;
+      </div>
+    );
   }
 }
 
