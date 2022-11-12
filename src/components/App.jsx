@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import 'components/Form/Form.css';
-import Form from 'components/Form/Form';
+import SignupForm from 'components/Form/Form';
 
 class App extends Component {
   formSubmitHandler = data => {
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="container">
         <h1>React - form</h1>
-        <Form onSubmitForm={formSubmitHandler} />;
+        <SignupForm onSubmitForm={formSubmitHandler} />;
       </div>
     );
   }
