@@ -12,7 +12,7 @@ class App extends Component {
 
     return (
       <div className="container">
-        <h1>React - form</h1>
+        <h1>React - Singupform</h1>
         <SignupForm onSubmitForm={formSubmitHandler} />;
       </div>
     );
