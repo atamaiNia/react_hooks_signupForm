@@ -1,9 +1,9 @@
-import { useState } from 'react';
 import './Form.css';
+import useLocalStorage from 'components/hooks/useLocalStorage';
 
 export default function SignupForm() {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
+  const [firstName, setFirstName] = useLocalStorage('firstName', '');
+  const [lastName, setLastName] = useLocalStorage('lastName', '');
 
   const handleChange = event => {
     // const { name, value } = event.target;
@@ -23,7 +23,7 @@ export default function SignupForm() {
   };
 
   return (
-    <form className="Form">
+    <form className="Form" autoComplete="off">
       <label className="Form__label">
         <span className=" Name">Name</span>
         <input
